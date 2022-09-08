@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react-mini-task-manager/static/css/main.a40b0e99.css",
+    "main.js": "/react-mini-task-manager/static/js/main.8d7371f2.js",
+    "static/js/787.70912f31.chunk.js": "/react-mini-task-manager/static/js/787.70912f31.chunk.js",
+    "index.html": "/react-mini-task-manager/index.html",
+    "main.a40b0e99.css.map": "/react-mini-task-manager/static/css/main.a40b0e99.css.map",
+    "main.8d7371f2.js.map": "/react-mini-task-manager/static/js/main.8d7371f2.js.map",
+    "787.70912f31.chunk.js.map": "/react-mini-task-manager/static/js/787.70912f31.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a40b0e99.css",
+    "static/js/main.8d7371f2.js"
+  ]
+}
