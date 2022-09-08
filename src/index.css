@@ -1,5 +1,13 @@
-body {
+*{
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+body {
+  background-color: #252525;
+  color: #fff;
+  /* margin: 0; */
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -7,7 +15,185 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.form-control{
+  background-color: #252525;
+  padding: 2vh;
+  display:flex;
+  align-items: center;
+  justify-content: flex-start;
 }
+
+.form-control input{
+  background-color:#fff;
+  color: #000;
+  width:22rem;
+  height: 4vh;
+  font-size:1.2rem;
+}
+.form-control input[placeholder]{
+  padding-left:1rem;
+  background: #403f3f;
+  color: #fff;
+}
+input{
+  border:none;
+  outline:none;
+}
+.form-control button{
+  width:6rem;
+  height: 2rem;
+  margin-left:1rem;
+  cursor: pointer;
+}
+.form{
+  display:flex;
+  flex-wrap: wrap;
+
+}
+@media(max-width:375px){
+  .form{
+    justify-content:center;
+  }
+
+ 
+}
+.btn-add-cls{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn-add{
+  background-color: rgb(29, 176, 255);
+  color:#fff;
+  border: none;
+}
+.btn-add:hover{
+  background-color: rgb(50, 183, 254);
+
+}
+.btn-clear{
+  border: none;
+  color:#fff;
+  background-color: rgb(210, 49, 17);
+}
+.btn-clear:hover{
+  background-color: rgb(220, 44, 9);
+}
+.btn-clear sup{
+  font-size:.8rem;
+  color: rgb(255, 255, 255);
+}
+.s1{
+  width:100vw;
+  padding:2rem;
+  display: flex;
+  gap: 2rem;
+  /* border: 11px solid rgba(7, 118, 192, 0.133); */
+}
+.container{
+  /* border: 3px solid #ffffff; */
+  display: flex;
+  flex-direction: column;
+  /* width:fit-content; */
+  padding: 2rem;
+
+}
+.items{
+  width:40vw;
+  gap: 3rem;
+  margin: .6rem 0;
+  padding: .5rem;
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: space-between;
+  align-items: center;
+  background-color: #252525;
+  color: #fff;
+  cursor: pointer;
+  /* border: solid red; */
+}
+@media (max-width: 768px){
+  .items{
+    width: 100%;
+  }
+  .form{
+    justify-content:center;
+  }
+  .btn-add-cls{
+    margin: 10px 0;
+  }
+  .container{
+    display: flex;
+    align-items: center;
+    /* justify-content:center; */
+  }
+  .s1{
+    justify-content:center;
+  }
+}
+@media (max-width: 280px){
+  .s1{
+    width: 100%;
+  }
+  .container{
+    display: flex;
+    align-items: center;
+    /* justify-content:center; */
+  }
+}
+.items:hover{
+  background-color: #3b3535;
+
+}
+.items li{
+  /* border: 1px solid #494668; */
+  list-style: none;
+  font-size: 1.2rem;
+}
+.item-btn{
+  align-items: center;
+
+  width:20vw;
+  /* border: 1px solid #434252; */
+  display: flex;
+  justify-content: space-around;
+}
+.item-btn i{
+  font-size: 1rem;
+}
+.btn-date{
+  background-color: #34333e;
+  border: none;
+  color: #fff;
+  padding: 0 0.5rem;
+}
+.btn-del{
+  color: #fff;
+  border:none;
+  padding:3px;
+  cursor: pointer;
+  /* background-color: #252525; */
+
+}
+.btn-del:hover{
+  color: red;
+  transition:.3s;
+}
+.btn-edit{
+  color: #fff;
+  border:none;
+  padding:3px;
+  cursor: pointer;
+
+}
+.btn-edit:hover{
+  color:rgb(101, 117, 173);
+  transition:.3s;
+}
+/* .drop-container{
+  border:3px solid red;
+  display: flex;
+  flex-direction: column;
+  width:fit-content;
+  padding: 2rem;
+} */
